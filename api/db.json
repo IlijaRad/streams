@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "Sample Stream 1",
+      "description": "Hello, here you can watch some WoW Gameplay",
+      "id": 1
+    },
+    {
+      "title": "Sample Stream 2",
+      "description": "Hello, here you can watch some CS:GO Gameplay",
+      "id": 2
+    }
+  ]
+}
