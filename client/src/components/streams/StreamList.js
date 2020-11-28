@@ -23,7 +23,9 @@ class StreamList extends React.Component {
         return this.props.streams.map(stream => {
             return (
                 <div key={stream.id} style={{marginBottom: "20px"}}>
-                    <div style={{fontSize: '18px', fontWeight: "bold", marginBottom: '10px'}}>{stream.title}</div>
+                    <Link to={`/streams/${stream.id}`}>
+                        <div style={{fontSize: '18px', fontWeight: "bold", marginBottom: '10px'}}>{stream.title}</div>
+                    </Link>
                     <div style={{display: 'flex', width: '300px', justifyContent:'space-between'}}>
                         <div>{stream.description}</div>
                         {this.renderAdmin(stream)}
